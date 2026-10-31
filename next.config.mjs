@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { formats: ["image/avif", "image/webp"] },
+  output: "export",
+  images: { unoptimized: true },
 };
 export default nextConfig;
